@@ -25,7 +25,7 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Mount Fuji' color ='blue' location = 'Honshū'/>
             <td></td>
           </tr>
           <tr>
@@ -44,7 +44,7 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Jingu' color ='pink' location = 'Hokkaido, Japan'/>
             <td></td>
             <td></td>
           </tr>
@@ -52,16 +52,16 @@ const Calendar = () => {
             <td className="time">11 am</td>
             <td></td>
             <td></td>
+            <Event event='Tokyo Tower' color ='green' location = 'Asakusa, Tokyo'/>
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
-            <td></td>
+            <Event event='Himeji Castle' color ='blue' location = 'Hyōgo, Japan'/>
           </tr>
           <tr>
             <td className="time">12 pm</td>
             <td></td>
-            <td></td>
+            <Event event='Goshikinuma' color ='blue' location = 'Fukushima, Japan'/>
             <td></td>
             <td></td>
             <td></td>
@@ -73,14 +73,14 @@ const Calendar = () => {
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <Event event='Ghibli Museum' color ='pink' location = 'Inokashira Park in Mitaka'/>
             <td></td>
             <td></td>
             <td></td>
           </tr>
           <tr>
             <td className="time">2 pm</td>
-            <td></td>
+            <Event event='Tokyo Tower' color ='blue' location = 'Minato, Tokyo'/>
             <td></td>
             <td></td>
             <td></td>
@@ -111,7 +111,7 @@ const Calendar = () => {
           <tr>
             <td className="time">5 pm</td>
             <td></td>
-            <td></td>
+            <Event event='Azuma-kofuji' color ='green' location = 'Fukushima, Japan'/>
             <td></td>
             <td></td>
             <td></td>
